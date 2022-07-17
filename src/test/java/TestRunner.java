@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
         strict = true,
         plugin = {"io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm", "pretty", "json:target/cucumber-report/report.json"},
         features="src/main/java/features",
-        glue = ""
+        glue = "steps"
 )
 
 public class TestRunner {
